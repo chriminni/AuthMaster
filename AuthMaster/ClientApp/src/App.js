@@ -1,8 +1,10 @@
+import 'devextreme/dist/css/dx.light.css';
 import React, { Component } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
 import AuthorizeRoute from './components/api-authorization/AuthorizeRoute';
 import { Layout } from './components/Layout';
+import './assets/css/user-management.css';
 import './custom.css';
 
 export default class App extends Component {
